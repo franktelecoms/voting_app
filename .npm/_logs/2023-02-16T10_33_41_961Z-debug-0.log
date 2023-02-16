@@ -1,0 +1,645 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.4.0
+2 info using node@v19.6.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/storage/emulated/0/Download/voting_app/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 6ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 3ms
+12 timing config:load:user Completed in 4ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 23ms
+17 timing npm:load:configload Completed in 23ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 3ms
+23 timing config:load:flatten Completed in 7ms
+24 timing npm:load:display Completed in 9ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-02-16T10_33_41_961Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-02-16T10_33_41_961Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 51ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 317ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 1ms
+38 timing idealTree:buildDeps Completed in 3ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 332ms
+41 timing reify:loadTrees Completed in 350ms
+42 timing reify:diffTrees Completed in 6ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 2ms
+45 timing reify:createSparse Completed in 60ms
+46 timing reify:loadBundles Completed in 0ms
+47 silly audit bulk request {
+47 silly audit   accepts: [ '1.3.8' ],
+47 silly audit   'ansi-regex': [ '0.2.1' ],
+47 silly audit   'ansi-styles': [ '1.1.0' ],
+47 silly audit   anymatch: [ '1.3.2' ],
+47 silly audit   'apache-crypt': [ '1.2.6' ],
+47 silly audit   'apache-md5': [ '1.1.8' ],
+47 silly audit   'arr-diff': [ '2.0.0', '4.0.0' ],
+47 silly audit   'arr-flatten': [ '1.1.0' ],
+47 silly audit   'arr-union': [ '3.1.0' ],
+47 silly audit   'array-unique': [ '0.2.1', '0.3.2' ],
+47 silly audit   'assign-symbols': [ '1.0.0' ],
+47 silly audit   'async-each': [ '1.0.6' ],
+47 silly audit   atob: [ '2.1.2' ],
+47 silly audit   base: [ '0.11.2' ],
+47 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+47 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+47 silly audit   'basic-auth': [ '2.0.1' ],
+47 silly audit   batch: [ '0.6.1' ],
+47 silly audit   bcryptjs: [ '2.4.3' ],
+47 silly audit   'binary-extensions': [ '1.13.1' ],
+47 silly audit   bindings: [ '1.5.0' ],
+47 silly audit   bluebird: [ '2.9.6' ],
+47 silly audit   braces: [ '1.8.5', '2.3.2' ],
+47 silly audit   'cache-base': [ '1.0.1' ],
+47 silly audit   chalk: [ '0.5.1' ],
+47 silly audit   chokidar: [ '1.7.0' ],
+47 silly audit   'class-utils': [ '0.3.6' ],
+47 silly audit   'is-accessor-descriptor': [ '0.1.6', '1.0.0' ],
+47 silly audit   'is-data-descriptor': [ '0.1.4', '1.0.0' ],
+47 silly audit   'is-descriptor': [ '0.1.6', '1.0.2' ],
+47 silly audit   'kind-of': [ '5.1.0', '3.2.2', '4.0.0', '6.0.3' ],
+47 silly audit   'collection-visit': [ '1.0.0' ],
+47 silly audit   colors: [ '1.4.0' ],
+47 silly audit   commander: [ '2.6.0' ],
+47 silly audit   'component-emitter': [ '1.3.0' ],
+47 silly audit   concurrently: [ '2.2.0' ],
+47 silly audit   connect: [ '3.5.1' ],
+47 silly audit   'copy-descriptor': [ '0.1.1' ],
+47 silly audit   'core-util-is': [ '1.0.3' ],
+47 silly audit   cors: [ '2.8.5' ],
+47 silly audit   'cross-spawn': [ '0.2.9' ],
+47 silly audit   debug: [ '2.2.0', '2.6.9' ],
+47 silly audit   'decode-uri-component': [ '0.2.2' ],
+47 silly audit   depd: [ '2.0.0', '1.1.2' ],
+47 silly audit   destroy: [ '1.2.0' ],
+47 silly audit   duplexer: [ '0.1.2' ],
+47 silly audit   'ee-first': [ '1.1.1' ],
+47 silly audit   encodeurl: [ '1.0.2' ],
+47 silly audit   'escape-html': [ '1.0.3' ],
+47 silly audit   'escape-string-regexp': [ '1.0.5' ],
+47 silly audit   etag: [ '1.8.1' ],
+47 silly audit   'event-stream': [ '4.0.1' ],
+47 silly audit   'expand-brackets': [ '0.1.5', '2.1.4' ],
+47 silly audit   'expand-range': [ '1.8.2' ],
+47 silly audit   'extend-shallow': [ '3.0.2', '2.0.1' ],
+47 silly audit   'is-extendable': [ '1.0.1', '0.1.1' ],
+47 silly audit   extglob: [ '0.3.2', '2.0.4' ],
+47 silly audit   'faye-websocket': [ '0.11.4' ],
+47 silly audit   'file-uri-to-path': [ '1.0.0' ],
+47 silly audit   'filename-regex': [ '2.0.1' ],
+47 silly audit   'fill-range': [ '2.2.4', '4.0.0' ],
+47 silly audit   finalhandler: [ '0.5.1' ],
+47 silly audit   'for-in': [ '1.0.2' ],
+47 silly audit   'for-own': [ '0.1.5' ],
+47 silly audit   'fragment-cache': [ '0.2.1' ],
+47 silly audit   fresh: [ '0.5.2' ],
+47 silly audit   from: [ '0.1.7' ],
+47 silly audit   fsevents: [ '1.2.13' ],
+47 silly audit   'get-value': [ '2.0.6' ],
+47 silly audit   'glob-base': [ '0.3.0' ],
+47 silly audit   'glob-parent': [ '2.0.0' ],
+47 silly audit   'graceful-fs': [ '4.2.10' ],
+47 silly audit   'has-ansi': [ '0.1.0' ],
+47 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+47 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+47 silly audit   'is-number': [ '3.0.0', '2.1.0', '4.0.0' ],
+47 silly audit   'http-auth': [ '3.1.3' ],
+47 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+47 silly audit   statuses: [ '2.0.1', '1.5.0', '1.3.1' ],
+47 silly audit   'http-parser-js': [ '0.5.8' ],
+47 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+47 silly audit   'is-binary-path': [ '1.0.1' ],
+47 silly audit   'is-buffer': [ '1.1.6' ],
+47 silly audit   'is-dotfile': [ '1.0.3' ],
+47 silly audit   'is-equal-shallow': [ '0.1.3' ],
+47 silly audit   'is-extglob': [ '1.0.0' ],
+47 silly audit   'is-glob': [ '2.0.1' ],
+47 silly audit   'is-plain-object': [ '2.0.4' ],
+47 silly audit   'is-posix-bracket': [ '0.1.1' ],
+47 silly audit   'is-primitive': [ '2.0.0' ],
+47 silly audit   'is-windows': [ '1.0.2' ],
+47 silly audit   'is-wsl': [ '1.1.0' ],
+47 silly audit   isarray: [ '1.0.0' ],
+47 silly audit   'live-server': [ '1.2.0' ],
+47 silly audit   lodash: [ '4.17.21' ],
+47 silly audit   'lru-cache': [ '2.7.3' ],
+47 silly audit   'map-cache': [ '0.2.2' ],
+47 silly audit   'map-stream': [ '0.0.7' ],
+47 silly audit   'map-visit': [ '1.0.0' ],
+47 silly audit   'math-random': [ '1.0.4' ],
+47 silly audit   micromatch: [ '2.3.11', '3.1.10' ],
+47 silly audit   mime: [ '1.6.0' ],
+47 silly audit   'mime-db': [ '1.52.0' ],
+47 silly audit   'mime-types': [ '2.1.35' ],
+47 silly audit   'mixin-deep': [ '1.3.2' ],
+47 silly audit   moment: [ '2.29.4' ],
+47 silly audit   morgan: [ '1.10.0' ],
+47 silly audit   ms: [ '2.0.0', '0.7.1', '2.1.3' ],
+47 silly audit   nan: [ '2.17.0' ],
+47 silly audit   nanomatch: [ '1.2.13' ],
+47 silly audit   negotiator: [ '0.6.3' ],
+47 silly audit   'normalize-path': [ '2.1.1' ],
+47 silly audit   'object-assign': [ '4.1.1' ],
+47 silly audit   'object-copy': [ '0.1.0' ],
+47 silly audit   'object-visit': [ '1.0.1' ],
+47 silly audit   'object.omit': [ '2.0.1' ],
+47 silly audit   'object.pick': [ '1.3.0' ],
+47 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+47 silly audit   'on-headers': [ '1.0.2' ],
+47 silly audit   opn: [ '6.0.0' ],
+47 silly audit   'parse-glob': [ '3.0.4' ],
+47 silly audit   parseurl: [ '1.3.3' ],
+47 silly audit   pascalcase: [ '0.1.1' ],
+47 silly audit   'path-is-absolute': [ '1.0.1' ],
+47 silly audit   'pause-stream': [ '0.0.11' ],
+47 silly audit   'posix-character-classes': [ '0.1.1' ],
+47 silly audit   preserve: [ '0.2.0' ],
+47 silly audit   'process-nextick-args': [ '2.0.1' ],
+47 silly audit   'proxy-middleware': [ '0.15.0' ],
+47 silly audit   randomatic: [ '3.1.1' ],
+47 silly audit   'range-parser': [ '1.2.1' ],
+47 silly audit   'readable-stream': [ '2.3.7' ],
+47 silly audit   readdirp: [ '2.2.1' ],
+47 silly audit   'regex-cache': [ '0.4.4' ],
+47 silly audit   'regex-not': [ '1.0.2' ],
+47 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+47 silly audit   'repeat-element': [ '1.1.4' ],
+47 silly audit   'repeat-string': [ '1.6.1' ],
+47 silly audit   'resolve-url': [ '0.2.1' ],
+47 silly audit   ret: [ '0.1.15' ],
+47 silly audit   rx: [ '2.3.24' ],
+47 silly audit   'safe-buffer': [ '5.1.2' ],
+47 silly audit   'safe-regex': [ '1.1.0' ],
+47 silly audit   send: [ '0.18.0' ],
+47 silly audit   'serve-index': [ '1.9.1' ],
+47 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+47 silly audit   'set-value': [ '2.0.1' ],
+47 silly audit   snapdragon: [ '0.8.2' ],
+47 silly audit   'snapdragon-node': [ '2.1.1' ],
+47 silly audit   'snapdragon-util': [ '3.0.1' ],
+47 silly audit   'source-map': [ '0.5.7' ],
+47 silly audit   'source-map-resolve': [ '0.5.3' ],
+47 silly audit   'source-map-url': [ '0.4.1' ],
+47 silly audit   split: [ '1.0.1' ],
+47 silly audit   'split-string': [ '3.1.0' ],
+47 silly audit   'static-extend': [ '0.1.2' ],
+47 silly audit   'stream-combiner': [ '0.2.2' ],
+47 silly audit   string_decoder: [ '1.1.1' ],
+47 silly audit   'strip-ansi': [ '0.3.0' ],
+47 silly audit   'supports-color': [ '0.2.0' ],
+47 silly audit   through: [ '2.3.8' ],
+47 silly audit   'to-object-path': [ '0.3.0' ],
+47 silly audit   'to-regex': [ '3.0.2' ],
+47 silly audit   'to-regex-range': [ '2.1.1' ],
+47 silly audit   toidentifier: [ '1.0.1' ],
+47 silly audit   'union-value': [ '1.0.1' ],
+47 silly audit   'unix-crypt-td-js': [ '1.1.4' ],
+47 silly audit   unpipe: [ '1.0.0' ],
+47 silly audit   'unset-value': [ '1.0.0' ],
+47 silly audit   urix: [ '0.1.0' ],
+47 silly audit   use: [ '3.1.1' ],
+47 silly audit   'util-deprecate': [ '1.0.2' ],
+47 silly audit   'utils-merge': [ '1.0.0' ],
+47 silly audit   uuid: [ '3.4.0' ],
+47 silly audit   vary: [ '1.1.2' ],
+47 silly audit   'websocket-driver': [ '0.7.4' ],
+47 silly audit   'websocket-extensions': [ '0.1.4' ]
+47 silly audit }
+48 verbose reify failed optional dependency /storage/emulated/0/Download/voting_app/node_modules/fsevents
+49 silly reify mark deleted [ '/storage/emulated/0/Download/voting_app/node_modules/fsevents' ]
+50 verbose reify failed optional dependency /storage/emulated/0/Download/voting_app/node_modules/bindings
+51 silly reify mark deleted [ '/storage/emulated/0/Download/voting_app/node_modules/bindings' ]
+52 verbose reify failed optional dependency /storage/emulated/0/Download/voting_app/node_modules/nan
+53 silly reify mark deleted [ '/storage/emulated/0/Download/voting_app/node_modules/nan' ]
+54 verbose reify failed optional dependency /storage/emulated/0/Download/voting_app/node_modules/file-uri-to-path
+55 silly reify mark deleted [
+55 silly reify   '/storage/emulated/0/Download/voting_app/node_modules/file-uri-to-path'
+55 silly reify ]
+56 timing reifyNode:node_modules/fsevents Completed in 152ms
+57 timing reifyNode:node_modules/static-extend Completed in 1133ms
+58 timing reifyNode:node_modules/object-copy Completed in 1126ms
+59 timing reifyNode:node_modules/get-value Completed in 1124ms
+60 timing reifyNode:node_modules/copy-descriptor Completed in 1125ms
+61 timing reifyNode:node_modules/chalk Completed in 1124ms
+62 timing reifyNode:node_modules/ansi-styles Completed in 1124ms
+63 timing reifyNode:node_modules/ansi-regex Completed in 1125ms
+64 timing reifyNode:node_modules/use Completed in 1159ms
+65 timing reifyNode:node_modules/unset-value Completed in 1159ms
+66 timing reifyNode:node_modules/union-value Completed in 1158ms
+67 timing reifyNode:node_modules/to-regex-range Completed in 1171ms
+68 timing reifyNode:node_modules/to-regex Completed in 1171ms
+69 timing reifyNode:node_modules/to-object-path Completed in 1172ms
+70 timing reifyNode:node_modules/strip-ansi Completed in 1172ms
+71 timing reifyNode:node_modules/supports-color Completed in 1172ms
+72 timing reifyNode:node_modules/set-value Completed in 1170ms
+73 timing reifyNode:node_modules/repeat-string Completed in 1170ms
+74 timing reifyNode:node_modules/repeat-element Completed in 1170ms
+75 timing reifyNode:node_modules/regex-not Completed in 1171ms
+76 timing reifyNode:node_modules/regex-cache Completed in 1168ms
+77 timing reifyNode:node_modules/randomatic Completed in 1166ms
+78 timing reifyNode:node_modules/process-nextick-args Completed in 1166ms
+79 timing reifyNode:node_modules/posix-character-classes Completed in 1167ms
+80 timing reifyNode:node_modules/pascalcase Completed in 1167ms
+81 timing reifyNode:node_modules/path-is-absolute Completed in 1167ms
+82 timing reifyNode:node_modules/parse-glob Completed in 1166ms
+83 timing reifyNode:node_modules/object.omit Completed in 1167ms
+84 timing reifyNode:node_modules/object-visit Completed in 1167ms
+85 timing reifyNode:node_modules/object.pick Completed in 1167ms
+86 timing reifyNode:node_modules/normalize-path Completed in 1167ms
+87 timing reifyNode:node_modules/object-assign Completed in 1167ms
+88 timing reifyNode:node_modules/mixin-deep Completed in 1167ms
+89 timing reifyNode:node_modules/map-visit Completed in 1167ms
+90 timing reifyNode:node_modules/map-cache Completed in 1168ms
+91 timing reifyNode:node_modules/kind-of Completed in 1167ms
+92 timing reifyNode:node_modules/isobject Completed in 1167ms
+93 timing reifyNode:node_modules/is-wsl Completed in 1168ms
+94 timing reifyNode:node_modules/is-primitive Completed in 1168ms
+95 timing reifyNode:node_modules/is-windows Completed in 1168ms
+96 timing reifyNode:node_modules/is-posix-bracket Completed in 1169ms
+97 timing reifyNode:node_modules/is-number Completed in 1168ms
+98 timing reifyNode:node_modules/is-extglob Completed in 1168ms
+99 timing reifyNode:node_modules/is-glob Completed in 1169ms
+100 timing reifyNode:node_modules/is-extendable Completed in 1169ms
+101 timing reifyNode:node_modules/is-equal-shallow Completed in 1169ms
+102 timing reifyNode:node_modules/is-descriptor Completed in 1169ms
+103 timing reifyNode:node_modules/is-dotfile Completed in 1169ms
+104 timing reifyNode:node_modules/is-data-descriptor Completed in 1170ms
+105 timing reifyNode:node_modules/is-binary-path Completed in 1171ms
+106 timing reifyNode:node_modules/is-accessor-descriptor Completed in 1171ms
+107 timing reifyNode:node_modules/has-values Completed in 1171ms
+108 timing reifyNode:node_modules/has-ansi Completed in 1171ms
+109 timing reifyNode:node_modules/has-value Completed in 1171ms
+110 timing reifyNode:node_modules/glob-base Completed in 1171ms
+111 timing reifyNode:node_modules/fragment-cache Completed in 1172ms
+112 timing reifyNode:node_modules/for-own Completed in 1172ms
+113 timing reifyNode:node_modules/for-in Completed in 1172ms
+114 timing reifyNode:node_modules/filename-regex Completed in 1172ms
+115 timing reifyNode:node_modules/extglob Completed in 1172ms
+116 timing reifyNode:node_modules/extend-shallow Completed in 1172ms
+117 timing reifyNode:node_modules/expand-brackets Completed in 1172ms
+118 timing reifyNode:node_modules/expand-range Completed in 1173ms
+119 timing reifyNode:node_modules/escape-string-regexp Completed in 1173ms
+120 timing reifyNode:node_modules/escape-html Completed in 1173ms
+121 timing reifyNode:node_modules/ee-first Completed in 1173ms
+122 timing reifyNode:node_modules/destroy Completed in 1173ms
+123 timing reifyNode:node_modules/decode-uri-component Completed in 1174ms
+124 timing reifyNode:node_modules/collection-visit Completed in 1174ms
+125 timing reifyNode:node_modules/binary-extensions Completed in 1173ms
+126 timing reifyNode:node_modules/bindings Completed in 1174ms
+127 timing reifyNode:node_modules/async-each Completed in 1173ms
+128 timing reifyNode:node_modules/assign-symbols Completed in 1174ms
+129 timing reifyNode:node_modules/array-unique Completed in 1174ms
+130 timing reifyNode:node_modules/arr-flatten Completed in 1174ms
+131 timing reifyNode:node_modules/arr-union Completed in 1175ms
+132 timing reifyNode:node_modules/arr-diff Completed in 1175ms
+133 timing reifyNode:node_modules/anymatch Completed in 1175ms
+134 timing reifyNode:node_modules/unset-value/node_modules/has-values Completed in 1201ms
+135 timing reifyNode:node_modules/unset-value/node_modules/has-value Completed in 1201ms
+136 timing reifyNode:node_modules/to-regex-range/node_modules/is-number Completed in 1199ms
+137 timing reifyNode:node_modules/unset-value/node_modules/has-value/node_modules/isobject Completed in 1200ms
+138 timing reifyNode:node_modules/static-extend/node_modules/is-descriptor Completed in 1198ms
+139 timing reifyNode:node_modules/static-extend/node_modules/is-data-descriptor Completed in 1199ms
+140 timing reifyNode:node_modules/static-extend/node_modules/is-accessor-descriptor Completed in 1199ms
+141 timing reifyNode:node_modules/static-extend/node_modules/define-property Completed in 1199ms
+142 timing reifyNode:node_modules/snapdragon-node/node_modules/define-property Completed in 1198ms
+143 timing reifyNode:node_modules/snapdragon/node_modules/is-descriptor Completed in 1199ms
+144 timing reifyNode:node_modules/snapdragon/node_modules/is-data-descriptor Completed in 1199ms
+145 timing reifyNode:node_modules/snapdragon/node_modules/extend-shallow Completed in 1199ms
+146 timing reifyNode:node_modules/snapdragon/node_modules/is-accessor-descriptor Completed in 1204ms
+147 timing reifyNode:node_modules/snapdragon/node_modules/define-property Completed in 1203ms
+148 timing reifyNode:node_modules/set-value/node_modules/extend-shallow Completed in 1203ms
+149 timing reifyNode:node_modules/serve-index/node_modules/ms Completed in 1203ms
+150 timing reifyNode:node_modules/send/node_modules/ms Completed in 1204ms
+151 timing reifyNode:node_modules/send/node_modules/debug/node_modules/ms Completed in 1204ms
+152 timing reifyNode:node_modules/readdirp/node_modules/ms Completed in 1200ms
+153 timing reifyNode:node_modules/readdirp/node_modules/is-number Completed in 1201ms
+154 timing reifyNode:node_modules/readdirp/node_modules/is-data-descriptor Completed in 1200ms
+155 timing reifyNode:node_modules/readdirp/node_modules/is-accessor-descriptor Completed in 1200ms
+156 timing reifyNode:node_modules/readdirp/node_modules/is-number/node_modules/kind-of Completed in 1202ms
+157 timing reifyNode:node_modules/readdirp/node_modules/is-accessor-descriptor/node_modules/kind-of Completed in 1201ms
+158 timing reifyNode:node_modules/readdirp/node_modules/is-data-descriptor/node_modules/kind-of Completed in 1201ms
+159 timing reifyNode:node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow Completed in 1201ms
+160 timing reifyNode:node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow Completed in 1202ms
+161 timing reifyNode:node_modules/readdirp/node_modules/extglob/node_modules/define-property Completed in 1202ms
+162 timing reifyNode:node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor Completed in 1202ms
+163 timing reifyNode:node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow Completed in 1202ms
+164 timing reifyNode:node_modules/readdirp/node_modules/array-unique Completed in 1202ms
+165 timing reifyNode:node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property Completed in 1202ms
+166 timing reifyNode:node_modules/readdirp/node_modules/arr-diff Completed in 1202ms
+167 timing reifyNode:node_modules/readdirp/node_modules/braces/node_modules/extend-shallow Completed in 1203ms
+168 timing reifyNode:node_modules/randomatic/node_modules/is-number Completed in 1202ms
+169 timing reifyNode:node_modules/object-copy/node_modules/is-descriptor Completed in 1201ms
+170 timing reifyNode:node_modules/object-copy/node_modules/is-data-descriptor Completed in 1201ms
+171 timing reifyNode:node_modules/object-copy/node_modules/is-accessor-descriptor Completed in 1201ms
+172 timing reifyNode:node_modules/nanomatch/node_modules/array-unique Completed in 1201ms
+173 timing reifyNode:node_modules/object-copy/node_modules/define-property Completed in 1201ms
+174 timing reifyNode:node_modules/nanomatch/node_modules/arr-diff Completed in 1202ms
+175 timing reifyNode:node_modules/morgan/node_modules/ms Completed in 1201ms
+176 timing reifyNode:node_modules/has-values/node_modules/kind-of Completed in 1199ms
+177 timing reifyNode:node_modules/has-values/node_modules/is-number Completed in 1199ms
+178 timing reifyNode:node_modules/has-values/node_modules/is-number/node_modules/kind-of Completed in 1199ms
+179 timing reifyNode:node_modules/class-utils/node_modules/is-descriptor Completed in 1195ms
+180 timing reifyNode:node_modules/class-utils/node_modules/is-data-descriptor Completed in 1196ms
+181 timing reifyNode:node_modules/class-utils/node_modules/is-accessor-descriptor Completed in 1196ms
+182 timing reifyNode:node_modules/class-utils/node_modules/define-property Completed in 1196ms
+183 timing reifyNode:node_modules/base/node_modules/define-property Completed in 1195ms
+184 timing reifyNode:node_modules/vary Completed in 1222ms
+185 timing reifyNode:node_modules/utils-merge Completed in 1221ms
+186 timing reifyNode:node_modules/unpipe Completed in 1220ms
+187 timing reifyNode:node_modules/toidentifier Completed in 1222ms
+188 warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+189 timing reifyNode:node_modules/source-map-url Completed in 1223ms
+190 timing reifyNode:node_modules/split-string Completed in 1224ms
+191 timing reifyNode:node_modules/remove-trailing-separator Completed in 1221ms
+192 timing reifyNode:node_modules/range-parser Completed in 1216ms
+193 timing reifyNode:node_modules/parseurl Completed in 1216ms
+194 timing reifyNode:node_modules/on-finished Completed in 1216ms
+195 timing reifyNode:node_modules/on-headers Completed in 1216ms
+196 timing reifyNode:node_modules/is-plain-object Completed in 1215ms
+197 timing reifyNode:node_modules/inherits Completed in 1214ms
+198 timing reifyNode:node_modules/http-parser-js Completed in 1214ms
+199 timing reifyNode:node_modules/http-errors Completed in 1215ms
+200 timing reifyNode:node_modules/fresh Completed in 1214ms
+201 timing reifyNode:node_modules/fill-range Completed in 1215ms
+202 timing reifyNode:node_modules/etag Completed in 1215ms
+203 timing reifyNode:node_modules/encodeurl Completed in 1215ms
+204 timing reifyNode:node_modules/define-property Completed in 1214ms
+205 timing reifyNode:node_modules/core-util-is Completed in 1215ms
+206 timing reifyNode:node_modules/component-emitter Completed in 1214ms
+207 timing reifyNode:node_modules/class-utils Completed in 1215ms
+208 timing reifyNode:node_modules/braces Completed in 1214ms
+209 timing reifyNode:node_modules/cache-base Completed in 1214ms
+210 timing reifyNode:node_modules/basic-auth Completed in 1215ms
+211 timing reifyNode:node_modules/base Completed in 1215ms
+212 timing reifyNode:node_modules/apache-crypt Completed in 1215ms
+213 timing reifyNode:node_modules/accepts Completed in 1214ms
+214 timing reifyNode:node_modules/unset-value/node_modules/isobject Completed in 1241ms
+215 timing reifyNode:node_modules/static-extend/node_modules/is-descriptor/node_modules/kind-of Completed in 1238ms
+216 timing reifyNode:node_modules/snapdragon-node/node_modules/isobject Completed in 1237ms
+217 timing reifyNode:node_modules/snapdragon/node_modules/is-descriptor/node_modules/kind-of Completed in 1238ms
+218 timing reifyNode:node_modules/serve-index/node_modules/setprototypeof Completed in 1237ms
+219 timing reifyNode:node_modules/serve-index/node_modules/inherits Completed in 1237ms
+220 timing reifyNode:node_modules/readdirp/node_modules/isobject Completed in 1233ms
+221 timing reifyNode:node_modules/readdirp/node_modules/fill-range Completed in 1232ms
+222 timing reifyNode:node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of Completed in 1232ms
+223 timing reifyNode:node_modules/object-visit/node_modules/isobject Completed in 1230ms
+224 timing reifyNode:node_modules/object.pick/node_modules/isobject Completed in 1231ms
+225 timing reifyNode:node_modules/object-copy/node_modules/is-descriptor/node_modules/kind-of Completed in 1231ms
+226 timing reifyNode:node_modules/is-plain-object/node_modules/isobject Completed in 1228ms
+227 timing reifyNode:node_modules/mixin-deep/node_modules/is-extendable Completed in 1230ms
+228 timing reifyNode:node_modules/has-value/node_modules/isobject Completed in 1227ms
+229 timing reifyNode:node_modules/extend-shallow/node_modules/is-extendable Completed in 1225ms
+230 timing reifyNode:node_modules/define-property/node_modules/isobject Completed in 1225ms
+231 timing reifyNode:node_modules/class-utils/node_modules/isobject Completed in 1224ms
+232 timing reifyNode:node_modules/class-utils/node_modules/is-descriptor/node_modules/kind-of Completed in 1224ms
+233 timing reifyNode:node_modules/cache-base/node_modules/isobject Completed in 1223ms
+234 timing reifyNode:node_modules/base/node_modules/isobject Completed in 1223ms
+235 timing reifyNode:node_modules/util-deprecate Completed in 1249ms
+236 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1260ms
+237 timing auditReport:getReport Completed in 1274ms
+238 silly audit report {
+238 silly audit report   braces: [
+238 silly audit report     {
+238 silly audit report       id: 1089939,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-cwfw-4gq5-mrqx',
+238 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in braces',
+238 silly audit report       severity: 'low',
+238 silly audit report       vulnerable_versions: '<2.3.1',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     },
+238 silly audit report     {
+238 silly audit report       id: 1085715,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-g95f-p29q-9xw4',
+238 silly audit report       title: 'Regular Expression Denial of Service in braces',
+238 silly audit report       severity: 'low',
+238 silly audit report       vulnerable_versions: '<2.3.1',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     }
+238 silly audit report   ],
+238 silly audit report   debug: [
+238 silly audit report     {
+238 silly audit report       id: 1089147,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-9vvw-cc9w-f27h',
+238 silly audit report       title: 'debug Inefficient Regular Expression Complexity vulnerability',
+238 silly audit report       severity: 'high',
+238 silly audit report       vulnerable_versions: '<2.6.9',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     },
+238 silly audit report     {
+238 silly audit report       id: 1090974,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-gxpj-cx7g-858c',
+238 silly audit report       title: 'Regular Expression Denial of Service in debug',
+238 silly audit report       severity: 'low',
+238 silly audit report       vulnerable_versions: '<2.6.9',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     }
+238 silly audit report   ],
+238 silly audit report   'glob-parent': [
+238 silly audit report     {
+238 silly audit report       id: 1089029,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-ww39-953v-wcq6',
+238 silly audit report       title: 'glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex',
+238 silly audit report       severity: 'high',
+238 silly audit report       vulnerable_versions: '<5.1.2',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     }
+238 silly audit report   ],
+238 silly audit report   ms: [
+238 silly audit report     {
+238 silly audit report       id: 1088818,
+238 silly audit report       url: 'https://github.com/advisories/GHSA-w9mr-4mfr-499f',
+238 silly audit report       title: 'Vercel ms Inefficient Regular Expression Complexity vulnerability',
+238 silly audit report       severity: 'moderate',
+238 silly audit report       vulnerable_versions: '<2.0.0',
+238 silly audit report       cwe: [Array],
+238 silly audit report       cvss: [Object]
+238 silly audit report     }
+238 silly audit report   ]
+238 silly audit report }
+239 timing reifyNode:node_modules/statuses Completed in 1264ms
+240 timing reifyNode:node_modules/snapdragon-node Completed in 1263ms
+241 timing reifyNode:node_modules/proxy-middleware Completed in 1255ms
+242 timing reifyNode:node_modules/ms Completed in 1254ms
+243 timing reifyNode:node_modules/morgan Completed in 1254ms
+244 timing reifyNode:node_modules/math-random Completed in 1255ms
+245 timing reifyNode:node_modules/is-buffer Completed in 1253ms
+246 timing reifyNode:node_modules/finalhandler Completed in 1252ms
+247 timing reifyNode:node_modules/apache-md5 Completed in 1250ms
+248 timing reifyNode:node_modules/serve-index/node_modules/http-errors Completed in 1269ms
+249 timing reifyNode:node_modules/send/node_modules/on-finished Completed in 1270ms
+250 timing reifyNode:node_modules/readdirp/node_modules/kind-of Completed in 1266ms
+251 timing reifyNode:node_modules/randomatic/node_modules/kind-of Completed in 1264ms
+252 timing reifyNode:node_modules/nanomatch/node_modules/kind-of Completed in 1263ms
+253 timing reifyNode:node_modules/is-descriptor/node_modules/kind-of Completed in 1260ms
+254 timing reifyNode:node_modules/is-data-descriptor/node_modules/kind-of Completed in 1260ms
+255 timing reifyNode:node_modules/is-accessor-descriptor/node_modules/kind-of Completed in 1260ms
+256 warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+257 timing reifyNode:node_modules/urix Completed in 1280ms
+258 timing reifyNode:node_modules/string_decoder Completed in 1281ms
+259 timing reifyNode:node_modules/setprototypeof Completed in 1279ms
+260 timing reifyNode:node_modules/safe-buffer Completed in 1278ms
+261 timing reifyNode:node_modules/readdirp Completed in 1275ms
+262 warn deprecated opn@6.0.0: The package has been renamed to `open`
+263 timing reifyNode:node_modules/opn Completed in 1273ms
+264 timing reifyNode:node_modules/mime-types Completed in 1272ms
+265 timing reifyNode:node_modules/glob-parent Completed in 1269ms
+266 timing reifyNode:node_modules/duplexer Completed in 1268ms
+267 timing reifyNode:node_modules/send/node_modules/statuses Completed in 1286ms
+268 timing reifyNode:node_modules/http-errors/node_modules/statuses Completed in 1275ms
+269 timing reifyNode:node_modules/stream-combiner Completed in 1293ms
+270 timing reifyNode:node_modules/snapdragon-util Completed in 1292ms
+271 timing reifyNode:node_modules/pause-stream Completed in 1284ms
+272 timing reifyNode:node_modules/isarray Completed in 1282ms
+273 timing reifyNode:node_modules/graceful-fs Completed in 1279ms
+274 timing reifyNode:node_modules/cross-spawn Completed in 1279ms
+275 timing reifyNode:node_modules/commander Completed in 1278ms
+276 timing reifyNode:node_modules/batch Completed in 1278ms
+277 timing reifyNode:node_modules/safe-regex Completed in 1300ms
+278 timing reifyNode:node_modules/ret Completed in 1299ms
+279 timing reifyNode:node_modules/from Completed in 1288ms
+280 timing reifyNode:node_modules/cors Completed in 1287ms
+281 timing reifyNode:node_modules/serve-index/node_modules/statuses Completed in 1305ms
+282 timing reifyNode:node_modules/unix-crypt-td-js Completed in 1315ms
+283 warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+284 timing reifyNode:node_modules/resolve-url Completed in 1311ms
+285 timing reifyNode:node_modules/preserve Completed in 1306ms
+286 timing reifyNode:node_modules/depd Completed in 1299ms
+287 timing reifyNode:node_modules/map-stream Completed in 1309ms
+288 timing reifyNode:node_modules/file-uri-to-path Completed in 1306ms
+289 timing reifyNode:node_modules/connect Completed in 1305ms
+290 timing reifyNode:node_modules/readdirp/node_modules/expand-brackets Completed in 1317ms
+291 timing reifyNode:node_modules/readdirp/node_modules/braces Completed in 1318ms
+292 warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+293 timing reifyNode:node_modules/source-map-resolve Completed in 1336ms
+294 timing reifyNode:node_modules/send Completed in 1334ms
+295 warn deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+296 timing reifyNode:node_modules/chokidar Completed in 1321ms
+297 timing reifyNode:node_modules/negotiator Completed in 1332ms
+298 timing reifyNode:node_modules/through Completed in 1349ms
+299 timing reifyNode:node_modules/snapdragon Completed in 1348ms
+300 timing reifyNode:node_modules/debug Completed in 1332ms
+301 timing reifyNode:node_modules/atob Completed in 1330ms
+302 timing metavuln:cache:get:security-advisory:braces:OV/4+5fZgoqfC743NsgdKkg1IaTYto4c916moYJ0wlLqNqSJewWZmkjHiibjgkdGJ0p9LjsMr41IRZ8wNgQzhg== Completed in 102ms
+303 timing metavuln:cache:get:security-advisory:braces:3G3vKD4uuWZ6OkybWFslc09SOlERX38mrHc4QH8E2A/eHw9Pg3yb3+xq3ajiFEXJVTWeWyVwBPO/LMTeF85Ofg== Completed in 100ms
+304 timing metavuln:cache:get:security-advisory:debug:LZvpYJ6xpeh4eueqsm7oEWApR8MO9hXqa1ZsuiOo0ffXLG/CV09Q7S/jhZLGyasn3lKjVgnlHU0EHh2V2MblcQ== Completed in 101ms
+305 timing metavuln:cache:get:security-advisory:debug:XnQ+DPKduVHoXq/NED6bypKTkRY5ntEVrCZZs/jHYQDA+S4qLma6AK0dlpg7bXfWw0UZorW53b818COooFdvGA== Completed in 100ms
+306 timing metavuln:cache:get:security-advisory:glob-parent:7O7P+ko9zrO0/aBwmiRECUOV4106cqwL5TsjOnNdlrMsxwBOGkvw82jwMi/v9uQnD71zzzj6cDCF4GG+PdXs8w== Completed in 101ms
+307 timing metavuln:cache:get:security-advisory:ms:mwhl3k7/WHt1Tz3BsJSWDnpwkVD9dIColYPycldGWkO9RrnArheLD7lpqPZzD/GBrbgnLl8MQ+xhmpcgVRHd2Q== Completed in 100ms
+308 timing reifyNode:node_modules/split Completed in 1357ms
+309 timing reifyNode:node_modules/micromatch Completed in 1345ms
+310 timing reifyNode:node_modules/mime Completed in 1346ms
+311 timing reifyNode:node_modules/lru-cache Completed in 1345ms
+312 timing reifyNode:node_modules/readdirp/node_modules/extglob Completed in 1354ms
+313 timing reifyNode:node_modules/nanomatch Completed in 1351ms
+314 timing reifyNode:node_modules/readdirp/node_modules/micromatch Completed in 1365ms
+315 timing reifyNode:node_modules/serve-index/node_modules/depd Completed in 1373ms
+316 timing reifyNode:node_modules/http-auth Completed in 1363ms
+317 timing reifyNode:node_modules/websocket-extensions Completed in 1386ms
+318 timing reifyNode:node_modules/mime-db Completed in 1369ms
+319 timing reifyNode:node_modules/serve-index/node_modules/debug Completed in 1419ms
+320 timing reifyNode:node_modules/send/node_modules/debug Completed in 1419ms
+321 timing reifyNode:node_modules/readdirp/node_modules/debug Completed in 1414ms
+322 timing reifyNode:node_modules/morgan/node_modules/debug Completed in 1411ms
+323 warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+324 timing reifyNode:node_modules/uuid Completed in 1431ms
+325 timing reifyNode:node_modules/faye-websocket Completed in 1412ms
+326 timing reifyNode:node_modules/concurrently Completed in 1418ms
+327 timing reifyNode:node_modules/event-stream Completed in 1429ms
+328 timing reifyNode:node_modules/colors Completed in 1429ms
+329 timing reifyNode:node_modules/websocket-driver Completed in 1465ms
+330 timing reifyNode:node_modules/readable-stream Completed in 1450ms
+331 http fetch GET 200 https://registry.npmjs.org/glob-parent 205ms (cache revalidated)
+332 timing metavuln:packument:glob-parent Completed in 207ms
+333 timing metavuln:load:security-advisory:glob-parent:1089029 Completed in 1ms
+334 timing metavuln:calculate:security-advisory:glob-parent:1089029 Completed in 208ms
+335 timing reifyNode:node_modules/live-server Completed in 1456ms
+336 timing reifyNode:node_modules/bcryptjs Completed in 1474ms
+337 timing reifyNode:node_modules/source-map Completed in 1507ms
+338 timing reifyNode:node_modules/bluebird Completed in 1499ms
+339 timing reifyNode:node_modules/nan Completed in 1514ms
+340 timing reifyNode:node_modules/serve-index Completed in 1548ms
+341 timing reifyNode:node_modules/rx Completed in 1951ms
+342 timing reifyNode:node_modules/moment Completed in 2011ms
+343 timing reifyNode:node_modules/lodash Completed in 2252ms
+344 timing reify:unpack Completed in 2273ms
+345 timing reify:unretire Completed in 2ms
+346 timing build:queue Completed in 24ms
+347 timing reify:rollback:createSparse Completed in 489ms
+348 timing reify:rollback:retireShallow Completed in 0ms
+349 timing command:install Completed in 3269ms
+350 verbose stack Error: EPERM: operation not permitted, symlink '../atob/bin/atob.js' -> '/storage/emulated/0/Download/voting_app/node_modules/.bin/atob'
+351 verbose cwd /storage/emulated/0/Download/voting_app
+352 verbose Linux 4.9.154
+353 verbose node v19.6.0
+354 verbose npm  v9.4.0
+355 error code EPERM
+356 error syscall symlink
+357 error path ../atob/bin/atob.js
+358 error dest /storage/emulated/0/Download/voting_app/node_modules/.bin/atob
+359 error errno -1
+360 error [Error: EPERM: operation not permitted, symlink '../atob/bin/atob.js' -> '/storage/emulated/0/Download/voting_app/node_modules/.bin/atob'] {
+360 error   errno: -1,
+360 error   code: 'EPERM',
+360 error   syscall: 'symlink',
+360 error   path: '../atob/bin/atob.js',
+360 error   dest: '/storage/emulated/0/Download/voting_app/node_modules/.bin/atob'
+360 error }
+361 error
+361 error The operation was rejected by your operating system.
+361 error It is likely you do not have the permissions to access this file as the current user
+361 error
+361 error If you believe this might be a permissions issue, please double-check the
+361 error permissions of the file and its containing directories, or try running
+361 error the command again as root/Administrator.
+362 verbose exit -1
+363 timing npm Completed in 3361ms
+364 verbose unfinished npm timer reify 1676543622046
+365 verbose unfinished npm timer reify:audit 1676543622480
+366 verbose unfinished npm timer auditReport:init 1676543623758
+367 verbose unfinished npm timer metavuln:calculate:security-advisory:braces:1089939 1676543623758
+368 verbose unfinished npm timer metavuln:packument:braces 1676543623759
+369 verbose unfinished npm timer metavuln:calculate:security-advisory:braces:1085715 1676543623762
+370 verbose unfinished npm timer metavuln:calculate:security-advisory:debug:1089147 1676543623762
+371 verbose unfinished npm timer metavuln:packument:debug 1676543623762
+372 verbose unfinished npm timer metavuln:calculate:security-advisory:debug:1090974 1676543623763
+373 verbose unfinished npm timer metavuln:calculate:security-advisory:ms:1088818 1676543623764
+374 verbose unfinished npm timer metavuln:packument:ms 1676543623764
+375 verbose unfinished npm timer reify:build 1676543624776
+376 verbose unfinished npm timer build 1676543624778
+377 verbose unfinished npm timer build:deps 1676543624779
+378 verbose unfinished npm timer build:link 1676543624805
+379 verbose unfinished npm timer build:link:node_modules/atob 1676543624806
+380 verbose unfinished npm timer build:link:node_modules/concurrently 1676543624808
+381 verbose unfinished npm timer build:link:node_modules/has-ansi 1676543624809
+382 verbose unfinished npm timer build:link:node_modules/live-server 1676543624809
+383 verbose unfinished npm timer build:link:node_modules/mime 1676543624809
+384 verbose unfinished npm timer build:link:node_modules/strip-ansi 1676543624810
+385 verbose unfinished npm timer build:link:node_modules/supports-color 1676543624810
+386 verbose unfinished npm timer build:link:node_modules/uuid 1676543624810
+387 verbose code -1
+388 error A complete log of this run can be found in:
+388 error     /data/data/com.termux/files/home/.npm/_logs/2023-02-16T10_33_41_961Z-debug-0.log
