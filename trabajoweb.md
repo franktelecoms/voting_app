@@ -31,13 +31,12 @@ Este análisis recoje entre otros los top 10 de riesgos clasificados por la orga
 ###Informe de vulnerabilidades
 
 
+![owa10](/imagenes/owaspa10.gif)
 
-![owa10](/owaspa10.gif)
+![owa11](/imagenes/owaspa11.gif)
 
-![owa11](/owaspa11.gif)
+![owa12](/imagenes/owaspa12.gif)
 
-![owa12](/owaspa12.gif)
+![owa13](/imagenes/owaspa13.gif)
 
-![owa13](/owaspa13.gif)
-
-![owa14](/owaspa14.gif)
+![owa14](/imagenes/owaspa14.gif)
